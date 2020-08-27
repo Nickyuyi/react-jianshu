@@ -1,0 +1,15 @@
+.medical-wrapper {
+    height: 90vh;
+    width: 90vw;
+    margin: 10px 50px;
+}
+
+.left-nav {
+    margin-right: 10px;
+    border: 1px solid #ddd;
+}
+
+.temp-btn button {
+    width: 100%;
+}
+

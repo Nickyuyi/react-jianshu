@@ -1,0 +1,204 @@
+
+@import '~antd/dist/antd.css';
+
+.wrapper {
+    height: 100vh;
+    margin-left: 200px;
+    margin-top: 50px;
+    background-color: #dddddd4d;
+    padding: 10px;
+}
+
+.tab .ant-tabs-bar{
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+
+.category {
+    background: #fff;
+    height: 80vh;
+    padding-top: 40px;
+}
+
+.category-left {
+    min-height: 300px;
+    border-right: 1px solid #ccc;
+}
+
+.category-btn {
+    padding-left: 30px;
+}
+
+.tree-title  {
+    display: flex;
+}
+
+.tree-title-rg {
+    width: 250px;
+    text-align: right;
+    opacity: 0;
+}
+
+.tree-title:hover .tree-title-rg {
+    opacity: 1;
+}
+
+.tree-title-rg i {
+    margin-right: 10px;
+}
+
+.template-fields .ant-col-3 {
+    text-align: right;
+    margin-right: 30px;
+}
+
+.template-fields .ant-row {
+    margin-bottom: 10px;
+}
+
+.create-tmp-form .ant-form-item {
+    margin-bottom: 10px;
+}
+
+
+.terms {
+    padding-top: 10px;
+    height: 80vh;
+    background-color: #fff;
+    overflow-y: scroll;
+}
+
+.terms-body {
+    padding-top: 20px;
+}
+
+.terms-body-lf {
+    height: 420px;
+    border-right: 1px solid #E3E3E3;
+}
+
+.terms-lf-btn {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.terms-body-rg {
+    padding-left: 20px;
+}
+
+.term-header {
+    font-size: 16px;
+    line-height: 36px;
+    color: #fff;
+    background-color: #00A8CB;
+    text-align: center;
+}
+
+.term-body .ant-form-item {
+    padding: 3px 0;
+    background-color: #F4F4F4;
+    margin-bottom: 1px;
+}
+
+.term-body .ant-form-item-label {
+    text-align: center;
+}
+
+.term-body .ant-form-item-control input {
+    width: calc(100% - 68px);
+}
+
+.term-body .ant-form-extra {
+    position: absolute;
+    top: 0px;
+    right: 24px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.term-body-text {
+    text-align: center;
+}
+
+.term-add {
+    border: 1px solid #00a8cb;
+    line-height: 36px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+.term-btns {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.term-btns button:first-child {
+    margin-right: 10px;
+}
+
+.term-body-empty {
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.scale-title {
+    font-size: 14px;
+    height: 18px;
+}
+
+.scale-icon {
+    font-size: 18px;
+    color: #00A8CB;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.scale-list {
+    margin-left: 9px;
+    border-left: 2px solid #BEE9F2;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.scale-item {
+    position: relative;
+    font-size: 0;
+    width: 80%;
+}
+
+.scale-item:first-child .line {
+    margin-top: 24px;
+}
+
+.line {
+    display: inline-block;
+    width: 10px;
+    height: 1px;
+    background-color: #3eccea;
+    margin-right: 6px;
+    margin-top: 19px;
+}
+
+.scale-item:first-child .text {
+    top: 13px;
+}
+
+.text {
+    position: absolute;
+    top: 8px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.text:hover {
+    color: #55aef1;
+}
+
+.text:active {
+    color: #55aef1;
+}

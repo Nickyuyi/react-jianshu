@@ -1,0 +1,102 @@
+body {
+    padding: 0;
+}
+
+.demo-wrapper {
+    padding: 100px;
+    min-height: 500px;
+    background-color: #ccc;
+}
+
+.diagnose-box {
+    position: relative;
+    margin: 0 auto;
+    width: 400px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.diagnose-box-row {
+    display: flex;
+    cursor: pointer;
+}
+
+.diagnose-box-row:first-child {
+    border-bottom: 1px solid #000;
+}
+
+.diagnose-box-col {
+    flex: 1;
+    height: 25px;
+    line-height: 25px;
+}
+
+.diagnose-box-col:first-child {
+    border-right: 1px solid #000;
+    text-align: right;
+}
+
+.choose-tooth-box {
+    position: absolute;
+    top: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all .5s;
+    opacity: 1;
+}
+
+.scale {
+    opacity: 0;
+}
+
+.choose-tooth-header {
+    padding: 10px 20px;
+    display: flex;
+    background: #05c494;
+}
+
+.choose-tooth-header button {
+    outline: none;
+    line-height: 24px;
+    padding: 0 25px;
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+    background: #fff;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.choose-tooth-header button:focus {
+    border-color: #05c494;
+    color: #05c494;
+}
+
+.choose-tooth-body {
+    padding: 20px 20px 10px;
+    background: #fff;
+}
+
+.choose-tooth-body-inner {
+    background-color: gray;
+}
+
+.choose-tooth-body-inner td {
+    padding: 10px 5px;
+}
+
+.choose-tooth-body-inner td:hover {
+    background: #fff;
+}
+
+.tooth-item {
+    padding: 0 10px;
+    background: #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    user-select: none;
+}
+
+.tooth-item.checked {
+    background: #05c494;
+    color: #fff;
+}

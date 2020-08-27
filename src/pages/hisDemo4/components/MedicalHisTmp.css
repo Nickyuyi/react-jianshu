@@ -1,0 +1,43 @@
+.medical-his-lf {
+    padding-right: 20px;
+}
+
+.medical-his-rg {
+    padding: 0 10px;
+    border-radius: 3px;
+    box-shadow: 1px 3px 8px rgba(0, 0, 0, .5);
+}
+
+.medical-his-title {
+    height: 66px;
+    line-height: 66px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    border-bottom: 1px solid #E3E3E3;
+}
+
+.medical-his-list {
+    height: 360px;
+    overflow-y: auto;
+}
+
+.medical-his-item {
+    font-size: 14px;
+    box-sizing: border-box;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px dashed #F1F1F1;
+}
+
+.his-item-label {
+    text-align: right;
+    font-weight: 600;
+    box-sizing: border-box;
+    padding-right: 10px;
+}
+
+.medical-his-btn {
+    margin: 15px 0;
+    text-align: center;
+}

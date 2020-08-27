@@ -1,0 +1,29 @@
+
+.term-tab {
+    padding: 9px 0 12px;
+    border: 1px solid #E3E3E3;
+    border-top: 0;
+    background-color: #f4f4f4;
+}
+
+.term-tab-item {
+    text-align: center;
+    border-right: 1px solid #E3E3E3;
+}
+
+.term-tab-text {
+    display: inline-block;
+    width: 100px;
+    line-height: 22px;
+    font-size: 12px;
+    border: 1px solid #E3E3E3;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.tab-checked {
+    background-color: #00a8cb;
+    border-color: #00a8cb;
+    color: #fff;
+}
