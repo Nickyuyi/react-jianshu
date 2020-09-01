@@ -42,10 +42,11 @@ http.createServer(async (req, res) => {
             stdio: 'inherit',
         })
 
-        // 复制 Dockerfile 到项目目录
-        fs.copyFileSync(path.resolve(`./dockerfile`), path.resolve(projectDir, './dockerfile'))
-        // 复制 .dockerignore 到项目目录
-        fs.copyFileSync(path.resolve(__dirname, `./.dockerignore`), path.resolve(projectDir, './.dockerignore'))
+        // // 复制 Dockerfile 到项目目录   (项目中已有dockfile文件)
+        // fs.copyFileSync(path.resolve(`./dockerfile`), path.resolve(projectDir, './dockerfile'))
+        // // 复制 .dockerignore 到项目目录
+        // fs.copyFileSync(path.resolve(__dirname, `./.dockerignore`), path.resolve(projectDir, './.dockerignore'))
+
         // 创建 docker 镜像
         execSync(`docker build . -t ${data.repository.name}-image:latest `, {
             stdio: 'inherit',
